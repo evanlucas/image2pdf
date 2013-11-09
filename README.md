@@ -29,15 +29,15 @@ Options:
     -o, --output <file>      The output pdf
     -q, --quiet              Only log errors (takes precendence over silly and verbose)
     -t, --use-title <title>  Specify the document title
-    -d, --no-date                Do not print date created (takes precedence over -D, --date)
+    -d, --no-date            Do not print date created (takes precedence over -D, --date)
     -n, --name <name>        Specify created by
 ```
 
 ## Requirements
 
 node.js >= v0.11.3
-
-You must pass the `--harmony-generators` flag
+phantomjs
+`--harmony-generators` flag
 
 ## API
 
