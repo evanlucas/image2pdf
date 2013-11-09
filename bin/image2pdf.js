@@ -33,8 +33,9 @@ if (!program.dir) {
 
 var opts = {};
 opts.dir = program.dir
+opts.date = false
 if (program.useTitle) opts.title = program.useTitle
-if (!program.date) opts.date = true
+if (program.date) opts.date = true
 if (program.name) opts.name = program.name
 if (program.output) opts.output = program.output
 
