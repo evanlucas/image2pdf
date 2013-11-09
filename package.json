@@ -4,7 +4,7 @@
   "description": "Very simple cli tool to convert multiple images to a pdf",
   "main": "lib/image2pdf.js",
   "bin": {
-    "image2pdf": "image2pdf.js"
+    "image2pdf": "./bin/image2pdf.js"
   },
   "dependencies": {
     "colors": "~0.6.2",
