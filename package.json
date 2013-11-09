@@ -1,6 +1,6 @@
 {
   "name": "image2pdf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Very simple cli tool to convert multiple images to a pdf",
   "main": "lib/image2pdf.js",
   "bin": {
