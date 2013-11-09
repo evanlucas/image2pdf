@@ -1,0 +1,46 @@
+{
+  "name": "image2pdf",
+  "version": "0.0.1",
+  "description": "Very simple cli tool to convert multiple images to a pdf",
+  "main": "lib/image2pdf.js",
+  "bin": {
+    "image2pdf": "image2pdf.js"
+  },
+  "dependencies": {
+    "colors": "~0.6.2",
+    "moment": "~2.4.0",
+    "recess": "~1.1.9",
+    "which": "~1.0.5",
+    "commander": "~2.0.0",
+    "co": "~2.2.0",
+    "npmlog": "0.0.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-modverify": "0.0.3",
+    "grunt-cafe-mocha": "~0.1.9",
+    "should": "~2.0.2",
+    "grunt-cli": "~0.1.10"
+  },
+  "scripts": {
+    "test": "node --harmony-generators ./node_modules/.bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/image2pdf"
+  },
+  "keywords": [
+    "pdf",
+    "images",
+    "convert"
+  ],
+  "author": "Evan Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/image2pdf/issues"
+  },
+  "homepage": "https://github.com/evanlucas/image2pdf",
+  "engines": {
+    "node": ">=0.11.3 <0.12"
+  }
+}
